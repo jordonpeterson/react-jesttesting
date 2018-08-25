@@ -1,6 +1,7 @@
 /*A variety of basic functions that I will write unit tests for in functions.test.js. All of the below functions
 * were provided by a ProgrammingWithMosh tutorial.*/
 import {getCustomerSync} from './db'
+import {send} from './mail'
 
 
 export const absolute = function(number) {
@@ -38,3 +39,4 @@ export const notifyCustomer = function(order) {
 
     mail.send(customer.email, 'Your order was placed successfully.');
 }
+

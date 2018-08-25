@@ -1,6 +1,6 @@
 import React from 'react';
 import {absolute, greet, getCurrencies, getProduct, registerUser, applyDiscount, notifyCustomer} from './functions'
-import db,{getCustomerSync} from "./db";
+import * as db from "./db";
 import {mail} from './mail'
 
 /*In this file I will place tests for a variety of functions as outlined by programmingwithmosh. I am converting the functions
@@ -83,19 +83,20 @@ describe('registerUser', () => {
 //         expect(order.totalPrice).toBe(18);
 //
 //     })
+// }) /*I think that there is something wrong with my imports on this and applyDiscount*/
+//
+// describe('registerUser',() => {
+//     it('should send an email to the customer when called', () => {
+//
+//         db.getCustomerSync = function(customerId) {
+//             return {email: 'a'};
+//         }
+//         let mailSent = false;
+//         mail.send = function(email, message){
+//             mailSent = true;
+//
+//         }
+//         expect(mailSent).toBe(true);
+//         notifyCustomer({customerId: 1})
+//     })
 // })
-
-describe('registerUser',() => {
-    it('should send an email to the customer when called', () => {
-        db.getCustomerSync = function(customerId) {
-            return {email: 'a'};
-        }
-        let mailSent = false;
-        mail.send = function(email, message){
-            mailSent = true;
-
-        }
-        expect(mailSent).toBe(true);
-        notifyCustomer({customerId: 1})
-    })
-})
