@@ -38,7 +38,7 @@ describe('tickets', () => {
     })
 })
 
-//I wrote tests beforehand for this.
+//I wrote most tests beforehand for this. I'm trying to practice my TDD
 describe('Longestconsec', () => {
     it('returns "" if strarr.length = 0', () =>{
        const result = longestConsec([],1);
@@ -54,10 +54,10 @@ describe('Longestconsec', () => {
         const result1 = longestConsec(['one', 'two'], -1);
         expect(result1).toBe("");
     })
-    it('returns abcdefg', () => {
-        const array = ['ab','cdefg','h','ijklm','n','opq','rstu']
+    it('returns rstuvwxt', () => {
+        const array = ['ab','cdefg','h','ijklm','n','opq','rstu','vwxt']
         const result = longestConsec(array,2);
-        expect(result).toBe('abcdefg')
+        expect(result).toBe('rstuvwxt')
     })
     it('returns cdefg', () => {
         const array = ['ab','cdefg','h','ijklm','n','opq','rstu']
@@ -65,13 +65,13 @@ describe('Longestconsec', () => {
         expect(result).toBe('cdefg')
     })
     it('returns ijklmnopq', () => {
-        const array = ['ab','cdefg','h','ijklm','n','opq','rstu']
+        const array = ['ab','cdefg','h','ijklm','n','opq','rstu','vwxy']
         const result = longestConsec(array,3);
-        expect(result).toBe('ijklmnopq')
+        expect(result).toBe('cdefghijklm')
     })
     it('returns a', () => {
-        const array = ['a'],1
-        const result = longestConsec(array,3);
+        const array = ['a']
+        const result = longestConsec(array,1);
         expect(result).toBe('a')
     })
 

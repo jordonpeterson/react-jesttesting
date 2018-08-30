@@ -59,13 +59,25 @@ export const tickets = (peopleInLine) => {
 // n being the length of the string array, if n = 0 or k > n or k <= 0 return "".
 
 export const longestConsec = (strarr, k) =>{
-    let result;
+    let result = '';
+    let length =[];
     if (k>strarr.length || k<=0 || k > strarr.length){
         result = "";
+    } else {
+        let index = 0;
+        strarr.map(string =>{
+            let array = [];
+            array.push(string)
+            for(let i=1;i<k;i++){
+                array.push(strarr[index+i])
+                }
+            length = array.join('')
+            if(length.length > result.length){
+                result = length;
+            }
+            index++;
+        })
     }
-    strarr.map(string => {
-        string.length
-    })
 return result;
 }
 
