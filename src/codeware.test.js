@@ -1,4 +1,4 @@
-import {tickets} from './codewars'
+import {tickets, longestConsec} from './codewars'
 
 describe('tickets', () => {
     it('returns "YES" when all customers can be given change)', () =>{
@@ -36,4 +36,44 @@ describe('tickets', () => {
         const result = tickets(array)
         expect(result).toContain("YES");
     })
+})
+
+//I wrote tests beforehand for this.
+describe('Longestconsec', () => {
+    it('returns "" if strarr.length = 0', () =>{
+       const result = longestConsec([],1);
+       expect(result).toBe('');
+    })
+    it('returns "" if k > strarr.length',() => {
+        const result = longestConsec(['one'],2);
+        expect(result).toBe('');
+    })
+    it('returns " if k <= 0',() =>{
+        const result = longestConsec(['one', 'two'], 0);
+        expect(result).toBe("");
+        const result1 = longestConsec(['one', 'two'], -1);
+        expect(result1).toBe("");
+    })
+    it('returns abcdefg', () => {
+        const array = ['ab','cdefg','h','ijklm','n','opq','rstu']
+        const result = longestConsec(array,2);
+        expect(result).toBe('abcdefg')
+    })
+    it('returns cdefg', () => {
+        const array = ['ab','cdefg','h','ijklm','n','opq','rstu']
+        const result = longestConsec(array,1);
+        expect(result).toBe('cdefg')
+    })
+    it('returns ijklmnopq', () => {
+        const array = ['ab','cdefg','h','ijklm','n','opq','rstu']
+        const result = longestConsec(array,3);
+        expect(result).toBe('ijklmnopq')
+    })
+    it('returns a', () => {
+        const array = ['a'],1
+        const result = longestConsec(array,3);
+        expect(result).toBe('a')
+    })
+
+
 })
