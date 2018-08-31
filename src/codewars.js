@@ -52,7 +52,8 @@ export const tickets = (peopleInLine) => {
 }
 
 //Assigned Codewars Kata
-// You are given an array strarr of strings and an integer k. Your task is to return the first longest string consisting of k consecutive strings taken in the array.
+// You are given an array strarr of strings and an integer k. Your task is to return the first longest string consisting of
+// k consecutive strings taken in the array.
 //
 //     #Example: longest_consec(["zone", "abigail", "theta", "form", "libe", "zas", "theta", "abigail"], 2) --> "abigailtheta"
 //
@@ -79,5 +80,31 @@ export const longestConsec = (strarr, k) =>{
         })
     }
 return result;
+}
+
+export const sumXSmallestNumbers =(array, num)=>{
+    //These are my tests to validate that I am receiving the correct types of input in this function
+    if(!Number.isInteger(num)){
+        throw new Error('Num needs to be an integer.')
+    }
+    if(num === 0){
+        throw new Error('num needs to be greater than zero...otherwise this function is pretty useless.')
+
+    }
+    if(!Array.isArray(array)){
+       const notArrayError ='The first input needs to be an array of numbers.';
+        throw new Error(notArrayError)
+    }
+    if(array.length === 0){
+       const lengthIsZeroError = 'This is an empty array. We need an array with numbers in it.';
+       throw new Error(lengthIsZeroError)
+    }
+    if(array.length < num){
+        throw new Error('The array has fewer numbers than you are asking for. Could you either pass us a bigger array or ask for fewer numbers?')
+    }
+    else{
+//This function needs to accept an array and a
+    }
+
 }
 
