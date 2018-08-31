@@ -84,6 +84,8 @@ return result;
 
 export const sumXSmallestNumbers =(array, num)=>{
     //These are my tests to validate that I am receiving the correct types of input in this function
+
+    //If you change the text thrown by Error, it will cause the unit tests in codewars.test to fail.
     if(!Number.isInteger(num)){
         throw new Error('Num needs to be an integer.')
     }
@@ -103,7 +105,8 @@ export const sumXSmallestNumbers =(array, num)=>{
         throw new Error('The array has fewer numbers than you are asking for. Could you either pass us a bigger array or ask for fewer numbers?')
     }
     else{
-//This function needs to accept an array and a
+//This function needs to accept an array and an integer, sort the array to find the smallest integers, add them together and return a sum.
+        
     }
 
 }

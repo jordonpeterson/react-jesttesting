@@ -114,7 +114,9 @@ describe('longestConsec', () => {
             expect(() => sumXSmallestNumbers(array,4)).toThrow(/The array has fewer numbers than you are asking for. Could you either pass us a bigger array or ask for fewer numbers?/);
         })
 
-        //These tests make sure that our function works the way that it is supposed to.
+        //These tests make sure that our function works the way that it is supposed to. I will have a number of tests to
+        //make sure that my function measures up in a variety of situations. This will include passing in a really large array
+        //that I download from somewhere.
 
 
         // it('returns the sum of the two lowest numbers in the array. 0 + 0 = 0', ()=>{
