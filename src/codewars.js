@@ -106,8 +106,13 @@ export const sumXSmallestNumbers =(array, num)=>{
     }
     else{
 //This function needs to accept an array and an integer, sort the array to find the smallest integers, add them together and return a sum.
-        
+        const copyOfArray = [...array] //Just in case I need the original array preserved for some reason later. I'm not sure why but it seems like a good practice
+        const compareNumbers = (a,b) => { return a-b}
+        copyOfArray.sort(compareNumbers);
+       const spliced = copyOfArray.splice(0, num)
+       const result = spliced.reduce((accumulator, currentValue) => accumulator + currentValue)
+        return result;
     }
 
-}
+} //I need to find a way to throw an error if an item in the array is not an int.
 

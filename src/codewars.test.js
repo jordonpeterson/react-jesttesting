@@ -119,21 +119,21 @@ describe('longestConsec', () => {
         //that I download from somewhere.
 
 
-        // it('returns the sum of the two lowest numbers in the array. 0 + 0 = 0', ()=>{
-        //     const array = [0,1,2,3,4,0,]
-        //     const result =sumXSmallestNumbers(array,2)
-        //     expect(result).toBe(0)
-        // })
-        // it('returns the sum of the two lowest numbers in the array. 1 + 2 = 3', ()=>{
-        //     const array = [5,12,7,1,2,3,4]
-        //     const result =sumXSmallestNumbers(array)
-        //     expect(result).toBe(3)
-        // })
-        // it('returns the sum of the two lowest numbers in the array. 10 + 20 = 30', ()=>{
-        //     const array = [50,120,70,10,20,30,40]
-        //     const result =sumXSmallestNumbers(array)
-        //     expect(result).toBe(30)
-        // })
+        it('returns the sum of the two lowest numbers in the array. 0 + 0 = 0', ()=>{
+            const array = [0,1,2,3,4,0,]
+            const result =sumXSmallestNumbers(array,2)
+            expect(result).toBe(0)
+        })
+        it('returns the sum of the two lowest numbers in the array. 1 + 2 = 3', ()=>{
+            const array = [5,12,7,1,2,3,4]
+            const result =sumXSmallestNumbers(array, 2)
+            expect(result).toBe(3)
+        })
+        it('returns the sum of the two lowest numbers in the array. 10 + 20 = 30', ()=>{
+            const array = [50,120,70,10,20,30,40]
+            const result =sumXSmallestNumbers(array, 3)
+            expect(result).toBe(60)
+        })
 
     })
 
