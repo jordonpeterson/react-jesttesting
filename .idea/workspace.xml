@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0f90f42-950e-456a-a1f6-8fdb13a2d67f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/max/maxFunction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/max/maxFunction.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codewars.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/codewars.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codewars.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/codewars.test.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="codewars.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="codewars.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/codewars.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="109" column="53" lean-forward="true" selection-start-line="109" selection-start-column="31" selection-end-line="109" selection-end-column="53" />
+            <state relative-caret-position="795">
+              <caret line="118" selection-start-line="99" selection-start-column="3" selection-end-line="118" />
               <folding>
                 <element signature="e#325#1669#0" />
                 <element signature="e#2124#2648#0" />
@@ -31,11 +31,35 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="maxFunction.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/max/maxFunction.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#308#427#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="maxFunction.test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/max/maxFunction.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="codewars.test.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/codewars.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="137" column="6" lean-forward="true" selection-start-line="137" selection-start-column="6" selection-end-line="137" selection-end-column="6" />
+            <state>
+              <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#70#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,8 +67,8 @@
       <file leaf-file-name="scratch.es6" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.es6">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            <state relative-caret-position="225">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -52,8 +76,8 @@
       <file leaf-file-name="functions.test.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/functions.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
-              <caret line="61" column="10" lean-forward="true" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
+            <state relative-caret-position="870">
+              <caret line="61" column="10" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -89,7 +113,11 @@
         <option value="$PROJECT_DIR$/src/codeware.test.js" />
         <option value="$PROJECT_DIR$/src/codewars.test.js" />
         <option value="$PROJECT_DIR$/src/codewars.js" />
+        <option value="$PROJECT_DIR$/src/max/maxFunction.test" />
+        <option value="$PROJECT_DIR$/src/max/maxFunction" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.es6" />
+        <option value="$PROJECT_DIR$/src/max/maxFunction.test.js" />
+        <option value="$PROJECT_DIR$/src/max/maxFunction.js" />
       </list>
     </option>
   </component>
@@ -109,7 +137,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="805" />
@@ -138,6 +166,12 @@
               <item name="react-jesttesting" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-jesttesting" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-jesttesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-jesttesting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="max" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-jesttesting" type="b2602c69:ProjectViewProjectNode" />
@@ -190,12 +224,14 @@
       <workItem from="1535590178540" duration="3220000" />
       <workItem from="1535660296008" duration="14463000" />
       <workItem from="1536089076522" duration="5274000" />
-      <workItem from="1536103799155" duration="424000" />
+      <workItem from="1536103799155" duration="654000" />
+      <workItem from="1536767028067" duration="5911000" />
+      <workItem from="1536852792351" duration="1067000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43118000" />
+    <option name="totallyTimeSpent" value="50326000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -207,21 +243,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32867134" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32867134" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Quokka" order="7" visible="true" weight="0.32969698" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32867134" />
+      <window_info anchor="bottom" id="Quokka" order="7" weight="0.32969698" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3898305" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3890909" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -232,24 +268,24 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info id="npm" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.32867134" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.24947146" />
-      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32867134" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="11" weight="0.32867134" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32867134" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Quokka" order="4" />
-      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32867134" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3890909" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Quokka" order="11" weight="0.32969698" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,24 +306,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/codewars.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="108" column="8" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="8" />
-          <folding>
-            <element signature="e#325#1669#0" />
-            <element signature="e#2124#2648#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/codewars.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1680">
-          <caret line="113" column="73" selection-start-line="113" selection-start-column="73" selection-end-line="113" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.es6">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -358,9 +376,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="131" selection-start-line="4" selection-start-column="81" selection-end-line="4" selection-end-column="131" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -382,10 +397,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#274#362#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -442,9 +453,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="131" selection-start-line="4" selection-start-column="81" selection-end-line="4" selection-end-column="131" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -466,10 +474,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#274#362#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -529,9 +533,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="4" column="131" lean-forward="true" selection-start-line="4" selection-start-column="81" selection-end-line="4" selection-end-column="131" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -553,10 +554,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#274#362#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -627,9 +624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="131" selection-start-line="4" selection-start-column="81" selection-end-line="4" selection-end-column="131" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -637,44 +631,60 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#274#362#0" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/functions.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="61" column="10" lean-forward="true" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
+        <state relative-caret-position="870">
+          <caret line="61" column="10" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.es6">
+    <entry file="file://$PROJECT_DIR$/src/codewars.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        <state relative-caret-position="795">
+          <caret line="118" selection-start-line="99" selection-start-column="3" selection-end-line="118" />
+          <folding>
+            <element signature="e#325#1669#0" />
+            <element signature="e#2124#2648#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/codewars.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="137" column="6" lean-forward="true" selection-start-line="137" selection-start-column="6" selection-end-line="137" selection-end-column="6" />
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#70#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/codewars.js">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.es6">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="109" column="53" lean-forward="true" selection-start-line="109" selection-start-column="31" selection-end-line="109" selection-end-column="53" />
+        <state relative-caret-position="225">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/max/maxFunction.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/max/maxFunction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
-            <element signature="e#325#1669#0" />
-            <element signature="e#2124#2648#0" />
+            <element signature="e#308#427#0" />
           </folding>
         </state>
       </provider>
