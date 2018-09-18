@@ -11,7 +11,6 @@ export const max = (...ints) => {
     //Making recursive function
     const arrayCheck = (input) => {
         for(let index of input){
-            //I want to parse everything to an int and ignore everything that cannot be turned into an int.
             if(Array.isArray(index)){arrayCheck(index)}
             else sanInts.push(index)
         }
